@@ -1,0 +1,100 @@
+h1 { 
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+body {
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+        url("https://atlmedios.com/wp-content/uploads/2019/09/Fotografia-eventos-de-empresas-atlmedios.jpg");
+    color: #333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+  @media (max-width: 991.98px) { 
+
+}
+
+
+.tabelahtml{
+    background: #ffffff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--cor-texto);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-buttons {
+text-align: center;
+color: antiquewhite;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+ 
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: white; /* Fundo branco para o formulário */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidade */
+    width: 300px; /* Largura fixa do formulário */
+    text-align:  center;
+    -moz-box-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold; /* Negrito para os rótulos */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"] {
+    width: 100%; /* Ocupa toda a largura do formulário */
+    padding: 10px;
+    margin-bottom: 15px; /* Espaçamento entre campos */
+    border: 1px solid #ced4da; /* Borda padrão */
+    border-radius: 4px; /* Bordas arredondadas nos campos */
+}
+
+button {
+    background-color: #007bff; /* Cor do botão */
+    color: white; /* Texto branco */
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    width: 100%; /* Ocupa toda a largura do botão */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+}
